@@ -21,6 +21,7 @@ Modern vehicle fleets generate large amounts of service and operational data. En
 
 However, raw service and telemetry data is often messy, distributed, and difficult to analyze. This project demonstrates how data pipelines and analytics tools can organize this information and turn it into actionable insights.
 ______________________________________________________________________________________________________________________________________________________________________
+
 Project Architecture:
 
 Raw Data → ETL Pipeline → Processed Tables → KPI Layer → Dashboard → Anomaly Detection
