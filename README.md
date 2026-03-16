@@ -41,7 +41,7 @@ The system performs the following steps:
 6) Detect unusual patterns using anomaly detection models
 
 7) Present insights through an interactive dashboard
-________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________
 
 Key Features:
 
@@ -49,14 +49,6 @@ Key Features:
 
 2) Reliability KPI Analytics: Repair rate by vehicle model ; Mean time between failures ; Average repair cost and downtime ; Repeat repair frequency ; Top failing components ; Regional reliability performance
 
-3) Anomaly Detection:
-   
-An Isolation Forest model is used to detect abnormal vehicle behavior such as:
+3) Anomaly Detection: An Isolation Forest model is used to detect abnormal vehicle behavior such as unusually high repair frequency, abnormal warranty costs, excessive warning counts from telemetry data. This allows engineers to proactively identify potential reliability issues.
 
-unusually high repair frequency ; abnormal warranty costs ; excessive warning counts from telemetry data
-
-This allows engineers to proactively identify potential reliability issues.
-
-4) Interactive Dashboard:
-
-An interactive Streamlit dashboard provides: fleet reliability overview ; service trends over time ; component failure analysis ; regional performance comparison ; anomaly alerts
+4) Interactive Dashboard: An interactive Streamlit dashboard provides fleet reliability overview, service trends over time, component failure analysis, regional performance comparison, anomaly alerts
