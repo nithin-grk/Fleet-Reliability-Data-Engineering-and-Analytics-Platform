@@ -20,3 +20,23 @@ Modern vehicle fleets generate large amounts of service and operational data. En
 4) trends in vehicle reliability over time
 
 However, raw service and telemetry data is often messy, distributed, and difficult to analyze. This project demonstrates how data pipelines and analytics tools can organize this information and turn it into actionable insights.
+______________________________________________________________________________________________________________________________________________________________________
+Project Architecture:
+
+Raw Data → ETL Pipeline → Processed Tables → KPI Layer → Dashboard → Anomaly Detection
+
+The system performs the following steps:
+
+Generate or ingest vehicle fleet datasets
+
+Clean and standardize raw service and telemetry data
+
+Transform datasets using SQL and Python
+
+Store processed data in a structured format
+
+Compute reliability metrics and KPIs
+
+Detect unusual patterns using anomaly detection models
+
+Present insights through an interactive dashboard
