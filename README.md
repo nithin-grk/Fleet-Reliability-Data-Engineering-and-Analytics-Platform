@@ -28,16 +28,16 @@ Raw Data → ETL Pipeline → Processed Tables → KPI Layer → Dashboard → A
 
 The system performs the following steps:
 
-Generate or ingest vehicle fleet datasets
+1) Generate or ingest vehicle fleet datasets
 
-Clean and standardize raw service and telemetry data
+2) Clean and standardize raw service and telemetry data
 
-Transform datasets using SQL and Python
+3) Transform datasets using SQL and Python
 
-Store processed data in a structured format
+4) Store processed data in a structured format
 
-Compute reliability metrics and KPIs
+5) Compute reliability metrics and KPIs
 
-Detect unusual patterns using anomaly detection models
+6) Detect unusual patterns using anomaly detection models
 
-Present insights through an interactive dashboard
+7) Present insights through an interactive dashboard
