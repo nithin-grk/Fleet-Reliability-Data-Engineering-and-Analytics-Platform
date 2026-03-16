@@ -52,3 +52,42 @@ Key Features:
 3) Anomaly Detection: An Isolation Forest model is used to detect abnormal vehicle behavior such as unusually high repair frequency, abnormal warranty costs, excessive warning counts from telemetry data. This allows engineers to proactively identify potential reliability issues.
 
 4) Interactive Dashboard: An interactive Streamlit dashboard provides fleet reliability overview, service trends over time, component failure analysis, regional performance comparison, anomaly alerts
+_____________________________________________________________________________________________________________________________________________________________________________
+
+Project Structure:
+
+fleet-reliability-platform/
+
+data/
+    raw/
+    processed/
+    synthetic/
+
+notebooks/
+    01_data_generation.ipynb
+    02_data_cleaning.ipynb
+    03_feature_engineering.ipynb
+    04_kpi_analysis.ipynb
+    05_anomaly_detection.ipynb
+
+sql/
+    create_tables.sql
+    transform_queries.sql
+    kpi_queries.sql
+
+src/
+    data_generator.py
+    etl_pipeline.py
+    feature_engineering.py
+    anomaly_detection.py
+    utils.py
+
+app/
+    streamlit_app.py
+
+outputs/
+    charts/
+    reports/
+
+requirements.txt
+README.md
